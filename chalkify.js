@@ -6,9 +6,9 @@ const c = require('./console').c;
 
 const console = {
     log: (text) => {c(text)},
-    warn: (text) => {c(chalk.yellow(text))},
-    error: (text) => {c(chalk.red(text))},
-    success: (text) => {c(chalk.green(text))},
+    warn: (text) => {c(chalk.bgYellow.black('WRN:') + ' ' + chalk.yellow(text))},
+    error: (text) => {c(chalk.bgRed('ERR:') + ' ' + chalk.red(text))},
+    success: (text) => {c(chalk.bgGreen.black('SUCCESS:') + ' ' + chalk.green(text))},
 
 
     red: (text) => {c(chalk.red(text))},
@@ -20,5 +20,7 @@ const console = {
     grey: (text) => {c(chalk.grey(text))},
     black: (text) => {c(chalk.black(text))},
 }
+
+console.success('What the fu')
 
 module.exports = console;
