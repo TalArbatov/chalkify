@@ -21,4 +21,12 @@ const console = {
     black: (text) => {c(chalk.black(text))},
 }
 
+console.warn('Data sample overloading server...')
+console.error('Cannot find specified path...')
+console.success('User sucessfully registered!')
+
+
+
+
+
 module.exports = console;
