@@ -21,3 +21,9 @@ Dead simple terminal string styling interface, made simple from Chalk.
   `console.red('this is red color')`
   
   `console.blue('this is blue color')`
+
+![alt text](https://raw.githubusercontent.com/TalArbatov/chalkify/master/img/Capture.JPG)
+
+##### Will return:
+
+![alt text](https://raw.githubusercontent.com/TalArbatov/chalkify/master/img/result.JPG)
