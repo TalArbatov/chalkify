@@ -21,6 +21,4 @@ const console = {
     black: (text) => {c(chalk.black(text))},
 }
 
-console.success('What the fu')
-
 module.exports = console;
